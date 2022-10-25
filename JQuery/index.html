@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- link jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="./style.css" />
+		<title>JQuery</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Danh sach nguoi dung</h1>
+			<p>so luong <span id="amount">0</span></p>
+			<div class="box__btn">
+				<button id="btn__get">Them</button>
+				<button id="btn__clear">Xoa</button>
+			</div>
+			<!-- table -->
+			<table>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Full Name</th>
+						<th>Address</th>
+					</tr>
+				</thead>
+				<tbody id="user-list"></tbody>
+			</table>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
